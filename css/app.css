@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+}
+
+.board-container {
+  width: 438px;
+  margin: auto;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.game-over {
+  background-color: rgb(116, 116, 116);
+  border: 3px solid rgb(81, 81, 173);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 665px;
+  top: 165px;
+  /* opacity: 50%; */
+  display: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
